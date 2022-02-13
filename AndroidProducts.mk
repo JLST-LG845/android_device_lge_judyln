@@ -1,4 +1,3 @@
-
 #
 # Copyright 2015 The Android Open Source Project
 #
@@ -16,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_judyln.mk
+    $(LOCAL_DIR)/xdroid_judyln.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_judyln-userdebug \
-    aosp_judyln-eng
+    xdroid_judyln-userdebug \
+    xdroid_judyln-eng
