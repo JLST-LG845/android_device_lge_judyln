@@ -54,7 +54,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=judyln_lao_com \
 
 # Xdroid
-XDROID_BOOT := 1440
+XDROID_MAINTAINER := EmanuelCN
+XDROID_BOOT := 1080
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
