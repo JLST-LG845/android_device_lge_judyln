@@ -104,7 +104,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_DEVICE_MODULES += \
-    android.hardware.vibrator-ndk_platform \
     bootctrl.$(TARGET_BOARD_PLATFORM) \
     libion \
     libxml2 \
@@ -142,6 +141,7 @@ TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
+TW_HAPTICS_TSPDRV := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_RESETPROP := true
 TW_INPUT_BLACKLIST := hbtp_vm
